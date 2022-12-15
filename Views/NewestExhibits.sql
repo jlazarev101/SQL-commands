@@ -1,0 +1,1 @@
+CREATE VIEW NewestExhibitsASSELECT TOP 100 ExhibitID,Name,CuratorIDFROM ExhibitORDER BY DateOpenedGOSELECT * FROM NewestExhibits

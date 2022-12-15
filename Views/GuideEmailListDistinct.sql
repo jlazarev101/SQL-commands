@@ -1,0 +1,1 @@
+CREATE VIEW GuideEmailListASSELECT DISTINCT GuideID,EmailFROM GuideGOSELECT * FROM GuideEmailListGO

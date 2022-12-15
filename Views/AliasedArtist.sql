@@ -1,0 +1,1 @@
+CREATE VIEW ArtistNameASSELECT Surname AS Name,ArtisticMovement AS AMove,Century AS CenFROM ArtistGOCREATE VIEW ArtistNameAliased(Name,AMove,Cen)ASSELECT Surname,ArtisticMovement,CenturyFROM ArtistGOselect * from ArtistNameselect * from ArtistNameAliased
